@@ -1,0 +1,52 @@
+.itemCart {
+  display: flex;
+  justify-content: space-between;
+}
+.itemCart figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.itemCart figure img {
+  width: 110%;
+}
+.itemCart span {
+  width: 47%;
+  text-align: start;
+}
+.itemCart span h3 {
+  color: #333333;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.itemCart span p {
+  color: #828282;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.itemCart button {
+  width: 67px;
+  height: 20px;
+  margin-top: 20px;
+  background-color: transparent;
+  border: none;
+  color: #bdbdbd;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
