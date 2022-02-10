@@ -18,6 +18,7 @@
 .itemCart span {
   width: 47%;
   text-align: start;
+  padding-left: 10px;
 }
 .itemCart span h3 {
   color: #333333;
@@ -26,6 +27,8 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
+  margin: 0;
+  margin-top: 18px;
 }
 
 .itemCart span p {
@@ -49,4 +52,9 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
+  cursor: pointer;
+}
+.itemCart button:hover {
+  text-decoration: underline;
+  color: #333333;
 }

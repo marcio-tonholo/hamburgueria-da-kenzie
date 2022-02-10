@@ -12,8 +12,10 @@ function SearchBar({ showProducts }) {
       <input
         type="text"
         name="searchBar"
-        placeholder="Digitar Pesquisa
-"
+        placeholder="Digitar Pesquisa"
+        onKeyUp={(e) => {
+          showProducts(e.target.value.toLowerCase());
+        }}
       />
       <button type="submit">Pesquisar</button>
     </form>

@@ -6,6 +6,10 @@
   margin-bottom: 12px;
 }
 
+.cardProduct:hover {
+  border-color: #333333;
+}
+
 .cardProduct div {
   display: flex;
   flex-direction: column;
@@ -48,6 +52,11 @@
   font-family: "Inter", sans-serif;
   font-size: 14px;
   color: #fff;
+  cursor: pointer;
+}
+
+.cardProduct div button:hover {
+  background-color: #93d7af;
 }
 .cardProduct figure {
   width: 300px;
